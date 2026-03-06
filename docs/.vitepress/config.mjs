@@ -2,12 +2,17 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "晚夏八月的博客",
-  description: "极简blog",
+  title: "wanxiabayue's blog",
+  description: "simple blog",
+  
+  // 自定义样式，移除默认边距和背景
+  lastUpdated: false,
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
+      { text: 'Home', link: '/' },
+      { text: 'About', link: '/about' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
